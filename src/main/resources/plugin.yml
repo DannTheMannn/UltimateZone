@@ -1,0 +1,16 @@
+name: UltimateZone
+version: ${project.version}
+main: ultimatezone.ultimatezone.UltimateZone
+api-version: 1.16
+authors: [DanielDjahangir]
+depend: [WorldEdit, WorldGuard]
+
+commands:
+  uz:
+    description: Erstell eine Zone
+    usage: /<command> [name]
+    permission: ultimatezone.createzone
+  uz delete zone:
+    description: Löscht eine Zone
+    usage: /<command>
+    permission: ultimatezone.deletezone
